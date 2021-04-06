@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSortArrayExample", "SelectionSortArrayExample\SelectionSortArrayExample.csproj", "{6CAEC1CB-CA6D-4985-8CC7-CAE7589EFDB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSortArrayExample.Tests.Unit", "SelectionSortArrayExample.Tests.Unit\SelectionSortArrayExample.Tests.Unit.csproj", "{EFBFA91F-AC4C-489B-92D9-C6E33C7F847D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CAEC1CB-CA6D-4985-8CC7-CAE7589EFDB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAEC1CB-CA6D-4985-8CC7-CAE7589EFDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAEC1CB-CA6D-4985-8CC7-CAE7589EFDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAEC1CB-CA6D-4985-8CC7-CAE7589EFDB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBFA91F-AC4C-489B-92D9-C6E33C7F847D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBFA91F-AC4C-489B-92D9-C6E33C7F847D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBFA91F-AC4C-489B-92D9-C6E33C7F847D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBFA91F-AC4C-489B-92D9-C6E33C7F847D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E68D9DAD-2901-413E-BFF2-756326DEC98F}
+	EndGlobalSection
+EndGlobal
