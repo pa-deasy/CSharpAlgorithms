@@ -12,8 +12,19 @@ namespace ApproximationAlgorithmRadioStations
 
             while (requiredStates.Any())
             {
-                var bestNumberofMatches = radioStations.Max(r => r.Value.Intersect(requiredStates).Count());
-                var bestMatch = radioStations.First(r => r.Value.Intersect(requiredStates).Count() == bestNumberofMatches).Key;
+                string bestMatch = null;
+                var bestNumberOfMatches = 0;
+
+                foreach(string stationKey in radioStations.Keys)
+                {
+                    var numberOfMatches = radioStations[stationKey].Intersect(requiredStates).Count();
+
+                    if (numberOfMatches > bestNumberOfMatches)
+                    {
+                        bestMatch = stationKey;
+                        bestNumberOfMatches = numberOfMatches;
+                    }
+                }
 
                 requiredRadioStations.Add(bestMatch);
                 requiredStates.ExceptWith(radioStations[bestMatch]);
