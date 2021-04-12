@@ -42,8 +42,23 @@ namespace DijkstrasAlgorithmSimpleExample
 
         private static string GetQuickestUnprocessedVertice(this Dictionary<string, Vertice> graphVertices)
         {
-            var quickestUnprocessed = graphVertices.Where(v => !v.Value.Processed).Min(v => v.Value.QuickestPath);
-            return graphVertices.First(v => !v.Value.Processed && v.Value.QuickestPath == quickestUnprocessed).Key;
+            var quickest = string.Empty;
+            foreach(string verticeKey in graphVertices.Keys)
+            {
+                if (graphVertices[verticeKey].Processed)
+                    continue;
+
+                if(quickest == string.Empty)
+                {
+                    quickest = verticeKey;
+                    continue;
+                }
+
+                if (graphVertices[verticeKey].QuickestPath < graphVertices[quickest].QuickestPath)
+                    quickest = verticeKey;
+            }
+
+            return quickest;
         }
 
         public static string Format(this Dictionary<string, Vertice> graphvertices)
