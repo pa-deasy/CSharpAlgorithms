@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgrammingSimpleExamples", "DynamicProgrammingSimpleExamples\DynamicProgrammingSimpleExamples.csproj", "{A3431A9B-FB7C-4E49-BB9D-2EDAAE42C340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgrammingSimpleExamples.Tests.Unit", "DynamicProgrammingSimpleExamples.Tests.Unit\DynamicProgrammingSimpleExamples.Tests.Unit.csproj", "{80A4D90B-CBBF-4B6C-8229-BB9E09AF5FF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3431A9B-FB7C-4E49-BB9D-2EDAAE42C340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3431A9B-FB7C-4E49-BB9D-2EDAAE42C340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3431A9B-FB7C-4E49-BB9D-2EDAAE42C340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3431A9B-FB7C-4E49-BB9D-2EDAAE42C340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A4D90B-CBBF-4B6C-8229-BB9E09AF5FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A4D90B-CBBF-4B6C-8229-BB9E09AF5FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A4D90B-CBBF-4B6C-8229-BB9E09AF5FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A4D90B-CBBF-4B6C-8229-BB9E09AF5FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E41616A4-DCDA-431A-9B41-32CBA61CCE33}
+	EndGlobalSection
+EndGlobal
