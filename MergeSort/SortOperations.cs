@@ -44,19 +44,8 @@ namespace MergeSort
                     mergedNumbers.Add(rightQueue.Dequeue());
             }
 
-            while(rightQueue.Any())
-            {
-                var popped = rightQueue.Dequeue();
-
-                if (!rightQueue.Any() || popped < rightQueue.Peek())
-                    mergedNumbers.Add(popped);
-
-                else
-                {
-                    mergedNumbers.Add(rightQueue.Dequeue());
-                    rightQueue.Enqueue(popped);
-                }
-            }
+            if (rightQueue.Any())
+                mergedNumbers.AddRange(rightQueue);
 
             return mergedNumbers.ToArray();
         }
