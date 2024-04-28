@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadthFirstSearchMangoSeller", "BreadthFirstSearchMangoSeller\BreadthFirstSearchMangoSeller.csproj", "{CCEF8C39-CE9A-4C9E-BE56-CA0B2BD1ADEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadthFirstSearchMangoSeller.Tests.Unit", "BreadthFirstSearchMangoSeller.Tests.Unit\BreadthFirstSearchMangoSeller.Tests.Unit.csproj", "{98024124-BE15-4C2D-9644-DBF2055B2653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCEF8C39-CE9A-4C9E-BE56-CA0B2BD1ADEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCEF8C39-CE9A-4C9E-BE56-CA0B2BD1ADEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCEF8C39-CE9A-4C9E-BE56-CA0B2BD1ADEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCEF8C39-CE9A-4C9E-BE56-CA0B2BD1ADEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98024124-BE15-4C2D-9644-DBF2055B2653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98024124-BE15-4C2D-9644-DBF2055B2653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98024124-BE15-4C2D-9644-DBF2055B2653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98024124-BE15-4C2D-9644-DBF2055B2653}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2391216C-C77A-47D9-9EF4-EAA605B9372A}
+	EndGlobalSection
+EndGlobal
